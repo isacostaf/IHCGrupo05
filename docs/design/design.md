@@ -16,11 +16,21 @@
 - [ ] <b> Fontes são fluidas </b> e de fácil entendimento.
 - [ ] Toma o devido cuidado com <b>``` display:none ``` e ``` visibility:hidden ``` para os recursos de tecnologia assistiva</b>
 - [ ] Preferir <b> botões com texto e ícone </b>. E botões apenas com ícones tem o nome acessível.
+- [ ] <b> Tipografia legível</b> com fontes de fácil leitura.
+- [ ] <b> Tipografia legível</b> com fontes de tamanho adequado.
+- [ ] <b> Evita elementos </b> visuais muito próximos, dificultando toque ou leitura.
+- [ ] <b> Evita dependencia </b> de instruções posicionais, como "clique no botão a direita".
+- [ ] <b> Evita textos animado,</b> cintilantes ou movimentação constante.
 
 ## Animação
 - [ ] <b> Evitar conteúdo que pisque</b>, ou mantenha-o abaixo dos limites. <a id="TEC6" href="#RP6">[6]</a>
 - [ ] <b> Permitir que os usuários controlem as alterações de conteúdo</b> que ocorrem em paralelo com outro conteúdo. <a id="TEC7" href="#RP7">[7]</a>
 - [ ] <b> Toda a animação</b> deve obedecer à ```prefers-reduced-motion``` consulta de mídia. <a id="TEC8" href="#RP8">[8]</a>
+- [ ] <b> Toda animação</b> possui descrição em áudio, para pessoas cegas
+- [ ] <b> Evitar loops infinitos</b> em vídeos ou gifs animados.
+- [ ] <b> Evitar transições rápidas ou abruptas</b>, que podem causar desconforto sensorial.
+
+
 
 ## Contraste de Cores
 - [ ] <b> Verificar o contraste</b> de  todo texto tamanho normal. <a id="TEC9" href="#RP9">[9]</a>
@@ -29,6 +39,11 @@
 - [ ] <b> Verificar o contraste</b> das bordas dos elementos de entrada (entrada de texto, botões de opção, caixas de seleção, etc.). <a id="#RP4" href="#RP4">[4]</a>
 - [ ] <b> Verificar o texto</b> que se sobrepõe a imagens ou vídeos. <a id="TEC9" href="#RP9">[9]</a>
 - [ ] <b> Verificar ```::selection``` cores</b> personalizadas. <a id="TEC9" href="#RP9">[9]</a>
+- [ ] <b> Verificar o contraste</b> de todo o texto de acordo com o fundo.
+- [ ] <b> Verificar o contraste</b> de todo o texto sob uma imagem.
+- [ ] <b> Verificar uso exclusivo de cores</b> não dependendo apenas de cores para transmitir informações.
+- [ ] <b> Verificar o contraste</b> do layout em conjunto.
+
 
 ## Referências Bibliograficas
 
@@ -51,5 +66,6 @@
 > <a id="RP9" href="#TEC9">9.</a> WCAG 2.2 Understanding Docs. SC 1.4.3 Contrast (Minimum) (Level AA). Disponível em: [https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html). Acesso em: 9 Mai. 2024.
 
 ## Bibliografia
+> </a> ABNT NBR 17225:2025, Acessibilidade em conteúdo e aplicações web – Requisitos. Disponível em: [https://mwpt.com.br/wp-content/uploads/2025/04/ABNT-NBR-17225-Acessibilidade-Digital.pdf](https://mwpt.com.br/wp-content/uploads/2025/04/ABNT-NBR-17225-Acessibilidade-Digital.pdf) Acesso em: 03 Jun. 2025
 
 > </a> DINIZ, V.; FERRAZ, R.; NASCIMENTO, C. M.; CREDIDIO, R. Guia de Boas Práticas para Acessibilidade Digital. Programa de Cooperação entre Reino Unido e Brasil em Acesso Digital, 2023. Disponível em: [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf). Acesso em: 9 Mai. 2024.
