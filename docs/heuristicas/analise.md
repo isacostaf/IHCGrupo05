@@ -1,4 +1,6 @@
-## Heurísticas
+# Introdução: Heurísticas de Nielsen no Site do MEC  
+
+A **Interação Humano-Computador (IHC)** utiliza as **Heurísticas de Nielsen** como diretrizes para avaliar a usabilidade de sistemas. Nesta análise, abordaremos três princípios críticos aplicáveis ao site do **Ministério da Educação (MEC)**:  
 ### 1. Visibilidade do status do sistema
 **Heurística:** O sistema deve sempre manter o usuário informado.  
 **Análise:** 
