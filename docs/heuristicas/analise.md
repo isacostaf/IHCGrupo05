@@ -31,6 +31,9 @@
 - Os menus e ícones seguem convenções comuns.
 
 ### 5. Prevenção de erros
+Sistemas eficientes devem **minimizar erros** por meio de:  
+- Validações em tempo real (ex.: formulários com feedback claro).  
+- Confirmações para ações irreversíveis (ex.: envio de documentos).
 **Heurística:** Evitar situações em que o usuário possa errar.  
 **Análise:**
 - Formulários não apresentam feedback claro em caso de erro.
