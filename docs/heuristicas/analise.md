@@ -52,6 +52,9 @@ Boas interfaces substituem a necessidade de memorização por:
 **Melhoria possível:** aumentar o tempo de exibição e dar suporte via teclado.
 
 ### 7. Flexibilidade e eficiência de uso
+Devem ser oferecidos:  
+- Atalhos para usuários experientes (ex.: teclas de acesso rápido).  
+- Personalização de funções frequentes (ex.: favoritos ou histórico). 
 **Heurística:** O sistema deve atender iniciantes e avançados.  
 **Análise:**
 - Não há opções de aumentar o contraste, mudar o tamanho da fonte ou modo alto contraste diretamente na interface.
