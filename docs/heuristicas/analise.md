@@ -42,6 +42,9 @@ Sistemas eficientes devem **minimizar erros** por meio de:
 **Melhoria possível:** adicionar mensagens de erro claras, e descrição nos campos de formulário.
 
 ### 6. Reconhecimento em vez de memorização
+Boas interfaces substituem a necessidade de memorização por:  
+- Menus e ícones autoexplicativos.  
+- Organização hierárquica da informação (ex.: seções bem categorizadas).
 **Heurística:** Mostrar opções em vez de exigir memorização.  
 **Análise:**
 - Menus principais são bons, mas submenus desaparecem rapidamente, dificultando o uso por pessoas com dificuldades motoras.
