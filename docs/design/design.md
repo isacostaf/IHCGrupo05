@@ -3,46 +3,46 @@
 "Existe uma lenda de que a acessibilidade torna um sítio web muito simples ou feio. Não é verdade: um sítio web bem estruturado pode ser bonito e criativo. É possível, inclusive, criar apresentações visuais diferentes para a mesma estrutura HTML de um sítio web com o uso de CSS e atender a diferentes necessidades". Dessa forma, nessa seção encontra-se checklist que garantam a acessibilidade no design.
 
 ## Aparência
-- [ ] <b> Adicionar instrução</b> que não <b>dependa exclusivamente da cor</b>. <a id="TEC1" href="#RP1">[1]</a>
-- [ ] <b> Adicionar informação</b> (como gráficos e diagramas) que não <b>dependa exclusivamente da cor</b>. <a id="TEC1" href="#RP1">[1]</a>
-- [ ] <b> Tamanho do texto ajustável</b> para permitir ampliação. <a id="TEC2" href="#RP2">[2]</a>
-- [ ] <b> Descrever os controles</b> pelo nome, não apenas pela aparência ou localização. <a id="TEC3"href="#RP3">[3]</a>
-- [ ] <b> Garantir que dicas visuais</b> significativas atinjam 3:1 em relação ao fundo. <a id="TEC4" href="#RP4">[4]</a>
-- [ ] <b> Fazer com que as linhas</b> de texto se ajustem ao viewport. <a id="TEC5"href="#RP5">[5]</a>
-- [ ] Oferece uma <b> opção de alto contraste </b> (dark-mode) de suas páginas web e aumento de fontes.
-- [ ] Parágrafos com no <b> máximo 80 caracteres por linha </b>.
-- [ ] <b> Evita </b> o uso de <b> textos longos em caixa alta ou condensados </b>.
+- [ ] **Adicionar instrução** que não **dependa exclusivamente da cor**. [1](#RP1)
+- [ ] **Adicionar informação** (como gráficos e diagramas) que não **dependa exclusivamente da cor**. [1](#RP1)
+- [ ] **Tamanho do texto ajustável** para permitir ampliação. [2](#RP2)
+- [ ] **Descrever os controles** pelo nome, não apenas pela aparência ou localização. [3](#RP3)
+- [ ] **Garantir que dicas visuais** significativas atinjam 3:1 em relação ao fundo. [4](#RP4)
+- [ ] **Fazer com que as linhas** de texto se ajustem ao viewport. [5](#RP5)
+- [ ] Oferece uma **opção de alto contraste** (dark-mode) de suas páginas web e aumento de fontes.
+- [ ] Parágrafos com no **máximo 80 caracteres por linha**.
+- [ ] **Evita** o uso de **textos longos em caixa alta ou condensados**.
 - [ ] Evita o alinhamento justificado.
-- [ ] <b> Fontes são fluidas </b> e de fácil entendimento.
-- [ ] Toma o devido cuidado com <b>``` display:none ``` e ``` visibility:hidden ``` para os recursos de tecnologia assistiva</b>
-- [ ] Preferir <b> botões com texto e ícone </b>. E botões apenas com ícones tem o nome acessível.
-- [ ] <b> Tipografia legível</b> com fontes de fácil leitura.
-- [ ] <b> Tipografia legível</b> com fontes de tamanho adequado.
-- [ ] <b> Evita elementos </b> visuais muito próximos, dificultando toque ou leitura.
-- [ ] <b> Evita dependencia </b> de instruções posicionais, como "clique no botão a direita".
-- [ ] <b> Evita textos animado,</b> cintilantes ou movimentação constante.
+- [ ] **Fontes são fluidas** e de fácil entendimento.
+- [ ] Toma o devido cuidado com ```display:none``` e ```visibility:hidden``` para os recursos de tecnologia assistiva.
+- [ ] Preferir **botões com texto e ícone**. E botões apenas com ícones tem o nome acessível.
+- [ ] **Tipografia legível** com fontes de fácil leitura.
+- [ ] **Tipografia legível** com fontes de tamanho adequado.
+- [ ] **Evita elementos** visuais muito próximos, dificultando toque ou leitura.
+- [ ] **Evita dependencia** de instruções posicionais, como "clique no botão à direita".
+- [ ] **Evita textos animados,** cintilantes ou movimentação constante.
 
 ## Animação
-- [ ] <b> Evitar conteúdo que pisque</b>, ou mantenha-o abaixo dos limites. <a id="TEC6" href="#RP6">[6]</a>
-- [ ] <b> Permitir que os usuários controlem as alterações de conteúdo</b> que ocorrem em paralelo com outro conteúdo. <a id="TEC7" href="#RP7">[7]</a>
-- [ ] <b> Toda a animação</b> deve obedecer à ```prefers-reduced-motion``` consulta de mídia. <a id="TEC8" href="#RP8">[8]</a>
-- [ ] <b> Toda animação</b> possui descrição em áudio, para pessoas cegas
-- [ ] <b> Evitar loops infinitos</b> em vídeos ou gifs animados.
-- [ ] <b> Evitar transições rápidas ou abruptas</b>, que podem causar desconforto sensorial.
 
-
+- [ ] **Evitar conteúdo que pisque**, ou mantenha-o abaixo dos limites. [6](#RP6)
+- [ ] **Permitir que os usuários controlem as alterações de conteúdo** que ocorrem em paralelo com outro conteúdo. [7](#RP7)
+- [ ] **Toda a animação** deve obedecer à `prefers-reduced-motion` consulta de mídia. [8](#RP8)
+- [ ] **Toda animação** possui descrição em áudio, para pessoas cegas.
+- [ ] **Evitar loops infinitos** em vídeos ou gifs animados.
+- [ ] **Evitar transições rápidas ou abruptas**, que podem causar desconforto sensorial.
 
 ## Contraste de Cores
-- [ ] <b> Verificar o contraste</b> de  todo texto tamanho normal. <a id="TEC9" href="#RP9">[9]</a>
-- [ ] <b> Verificar o contraste</b> de todo texto tamanho grande. <a id="TEC9" href="#RP9">[9]</a>
-- [ ] <b> Verificar o contraste</b> de todos os ícones. <a id="TEC4" href="#RP4">[4]</a>
-- [ ] <b> Verificar o contraste</b> das bordas dos elementos de entrada (entrada de texto, botões de opção, caixas de seleção, etc.). <a id="#RP4" href="#RP4">[4]</a>
-- [ ] <b> Verificar o texto</b> que se sobrepõe a imagens ou vídeos. <a id="TEC9" href="#RP9">[9]</a>
-- [ ] <b> Verificar ```::selection``` cores</b> personalizadas. <a id="TEC9" href="#RP9">[9]</a>
-- [ ] <b> Verificar o contraste</b> de todo o texto de acordo com o fundo.
-- [ ] <b> Verificar o contraste</b> de todo o texto sob uma imagem.
-- [ ] <b> Verificar uso exclusivo de cores</b> não dependendo apenas de cores para transmitir informações.
-- [ ] <b> Verificar o contraste</b> do layout em conjunto.
+
+- [ ] **Verificar o contraste** de todo texto tamanho normal. [9](#RP9)
+- [ ] **Verificar o contraste** de todo texto tamanho grande. [9](#RP9)
+- [ ] **Verificar o contraste** de todos os ícones. [4](#RP4)
+- [ ] **Verificar o contraste** das bordas dos elementos de entrada (entrada de texto, botões de opção, caixas de seleção, etc.). [4](#RP4)
+- [ ] **Verificar o texto** que se sobrepõe a imagens ou vídeos. [9](#RP9)
+- [ ] **Verificar `::selection` cores** personalizadas. [9](#RP9)
+- [ ] **Verificar o contraste** de todo o texto de acordo com o fundo.
+- [ ] **Verificar o contraste** de todo o texto sob uma imagem.
+- [ ] **Verificar uso exclusivo de cores** não dependendo apenas de cores para transmitir informações.
+- [ ] **Verificar o contraste** do layout em conjunto.
 
 
 ## Referências Bibliograficas
