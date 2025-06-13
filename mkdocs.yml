@@ -1,10 +1,12 @@
 repo_url: https://github.com/UnBIHC2025-1/IHC-2025.1-Grupo05
 repo_name: VerificAAA
 
-site_url: https://github.com/UnBIHC2025-1/IHC-2025.1-Grupo05
+site_url: https://unbihc2025-1.github.io/IHC-2025.1-Grupo05
 site_name: VerificAAA
 
-use_directory_urls: False
+markdown_extensions:
+  - tables
+  - md_in_html
 
 nav:
   - Início - VerificAAA: 'index.md'
@@ -25,17 +27,28 @@ nav:
     - Ferramentas de Acessibilidade: 'tools/ferramentas.md'
 
 theme:
-  name: readthedocs
-  locale: pt_BR
-  titles_only: true
-  logo: imagens/logo-verificaaa.png
-  favicon: imagens/logo-verificaaa.png
+  logo: docs/imagens/logo-verificaaa.png
+  name: material
+  font:
+    text: IBM Plex Serif
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - content.code.copy
+  palette:
+    - scheme: light
+      primary: custom
+      toggle:
+        icon: material/weather-night
+        name: Trocar para modo escuro
 
-markdown_extensions:
-  - def_list
-  - pymdownx.tasklist:
-      custom_checkbox: false
-      clickable_checkbox: true
+    - scheme: slate
+      primary: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Trocar para modo claro
+icon:
+  repo: fontawesome/brands/git-alt
 
 extra_css:
-  - stylesheets/extra.css
+  - assets/css/custom.css
