@@ -7,6 +7,8 @@ site_name: VerificAAA
 markdown_extensions:
   - tables
   - md_in_html
+  - pymdownx.tasklist:
+      custom_checkbox: false
 
 nav:
   - Início - VerificAAA: 'index.md'
@@ -27,7 +29,7 @@ nav:
     - Ferramentas de Acessibilidade: 'tools/ferramentas.md'
 
 theme:
-  logo: docs/imagens/logo-verificaaa.png
+  logo: imagens/logo-verificaaa.png
   name: material
   font:
     text: IBM Plex Serif
@@ -52,3 +54,4 @@ icon:
 
 extra_css:
   - assets/css/custom.css
+
