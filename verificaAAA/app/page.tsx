@@ -35,7 +35,7 @@ const sections = [
   },
   {
     id: "inovacao",
-    title: "Inovação",
+    title: "Design",
     icon: Lightbulb,
     color: "from-yellow-500 to-amber-400",
     href: "/inovacao",

@@ -114,8 +114,10 @@ body {
     @apply h-5 w-5 border-2 border-gray-400 rounded-md data-[state=checked]:bg-blue-500 data-[state=checked]:border-blue-500;
   }
 
-  .checklist-label {
-    @apply text-xl leading-relaxed text-gray-700;
+  .checklist-item-label {
+    font-size: 1.1rem;
+    line-height: 1.75;
+    color: rgb(55 65 81);
   }
 
   .code-inline {
