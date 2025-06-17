@@ -1,4 +1,5 @@
 # VerificaAAA - Update
+Melhorias e atualizações no projeto VerificaAAA
 
 ## ⚠️ Atenção: 
 Este projeto **ainda não está disponível online**.  
