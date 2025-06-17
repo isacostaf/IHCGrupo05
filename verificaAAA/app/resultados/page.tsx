@@ -42,7 +42,7 @@ export default function ResultadosPage() {
 
           <div className="max-w-4xl mx-auto space-y-8">
             <h2 className="page_subtitle">
-              Frameworks e Ferramentas de Testes Automatizados
+              Frameworks e Ferramentas de Testes Automatizados 
             </h2>
 
             <div className="grid gap-4">
