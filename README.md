@@ -1,6 +1,6 @@
 # VerificaAAA - Update
 
-⚠️ **Atenção:**  
+## ⚠️ Atenção: 
 Este projeto **ainda não está disponível online**.  
 Estamos trabalhando em melhorias antes de hospedar oficialmente.  
 A página do GitHub Pages pode ser **desconsiderada por enquanto** — o funcionamento atual é apenas **local**.
