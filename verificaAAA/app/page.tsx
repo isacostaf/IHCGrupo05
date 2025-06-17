@@ -14,7 +14,7 @@ const sections = [
   },
   {
     id: "equipe",
-    title: "Nossa Equipe",
+    title: "Desenvolvimento Web",
     icon: Users,
     color: "from-purple-500 to-pink-400",
     href: "/equipe",
@@ -152,7 +152,7 @@ export default function HomePage() {
                   </h3>
 
                   <p className="text-gray-600 group-hover:text-gray-700 transition-colors">
-                    Clique Aqui
+                    Clique para explorar esta seção
                   </p>
 
                   <div

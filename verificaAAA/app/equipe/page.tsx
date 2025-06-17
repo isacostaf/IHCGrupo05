@@ -24,11 +24,11 @@ export default function EquipePage() {
           </div>
 
           <h1 className="page_title">
-            Desenvolvimento
+            Desenvolvimento Web
           </h1>
 
           <p className="text-xl text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-            Conheça os desenvolvedores por trás do VerificaAAA
+          Acessibilidade na construção de experiências web inclusivas
           </p>
 
           <div className="max-w-4xl mx-auto space-y-8">
