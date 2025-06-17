@@ -21,14 +21,14 @@ const sections = [
   },
   {
     id: "objetivos",
-    title: "Objetivos",
+    title: "Geração de Conteúdo",
     icon: Target,
     color: "from-green-500 to-emerald-400",
     href: "/objetivos",
   },
   {
     id: "metodologia",
-    title: "Metodologia",
+    title: "Gestão de Projetos",
     icon: BarChart3,
     color: "from-orange-500 to-red-400",
     href: "/metodologia",
@@ -42,7 +42,7 @@ const sections = [
   },
   {
     id: "resultados",
-    title: "Resultados",
+    title: "Ferramentas de Acessibilidade",
     icon: Award,
     color: "from-indigo-500 to-purple-400",
     href: "/resultados",

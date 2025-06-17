@@ -24,7 +24,7 @@ export default function InovacaoPage() {
           </div>
 
           <h1 className="page_title">
-            Design Inclusivo
+            Design
           </h1>
 
           <p className="text-xl text-center text-gray-600 mb-12 max-w-2xl mx-auto">
