@@ -90,7 +90,7 @@ Mais do que uma simples lista de verificação, o VerificaAAA busca **conscienti
                       <div className="relative w-24 h-24 mb-3 rounded-full overflow-hidden shadow-lg transition-transform duration-300 group-hover:scale-105">
                         <Image
                           src={contributor.image}
-                          alt={contributor.name}
+                          alt={`Foto de perfil de ${contributor.name}, ${contributor.name === "Julia Gabriela" ? "mulher branca de cabelo castanho e olhos castanhos" : contributor.name === "Isabelle Costa" ? "mulher branca de olhos verdes e cabelo castanho" : "homem branco de cabelo castanho e olhos castanhos"}, por volta dos 20 anos, contribuidor do projeto VerificaAAA`}
                           fill
                           className="object-cover"
                         />
