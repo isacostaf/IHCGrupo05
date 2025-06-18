@@ -460,28 +460,28 @@ export default function EquipePage() {
                   <div className="checklist-item">
                     <Checkbox id="item46" className="checklist-checkbox" />
                     <Label htmlFor="item46" style={{ fontSize: '1.1rem', lineHeight: '1.75', color: 'rgb(55 65 81)' }}>
-                      Use o table para elementos em formato de tabela. [4]
+                      Use o table para elementos em formato de tabela. <a href="#ref4" className="text-blue-600 hover:underline">[4]</a>
                     </Label>
                   </div>
 
                   <div className="checklist-item">
                     <Checkbox id="item47" className="checklist-checkbox" />
                     <Label htmlFor="item47" style={{ fontSize: '1.1rem', lineHeight: '1.75', color: 'rgb(55 65 81)' }}>
-                      Insira cabeçalhos para explicar os dados, use th com scope correto. [15]
+                      Insira cabeçalhos para explicar os dados, use th com scope correto. <a href="#ref15" className="text-blue-600 hover:underline">[15]</a>
                     </Label>
                   </div>
 
                   <div className="checklist-item">
                     <Checkbox id="item48" className="checklist-checkbox" />
                     <Label htmlFor="item48" style={{ fontSize: '1.1rem', lineHeight: '1.75', color: 'rgb(55 65 81)' }}>
-                      Use o captione lemento para fornecer um título para a tabela. [17]
+                      Use o captione lemento para fornecer um título para a tabela. <a href="#ref17" className="text-blue-600 hover:underline">[17]</a>
                     </Label>
                   </div>
 
                   <div className="checklist-item">
                     <Checkbox id="item49" className="checklist-checkbox" />
                     <Label htmlFor="item49" style={{ fontSize: '1.1rem', lineHeight: '1.75', color: 'rgb(55 65 81)' }}>
-                      Não usar tabelas para layout.
+                      Não usar tabelas para layout. <a href="#ref4" className="text-blue-600 hover:underline">[4]</a>
                     </Label>
                   </div>
                 </div>
@@ -498,42 +498,42 @@ export default function EquipePage() {
                   <div className="checklist-item">
                     <Checkbox id="item50" className="checklist-checkbox" />
                     <Label htmlFor="item50" style={{ fontSize: '1.1rem', lineHeight: '1.75', color: 'rgb(55 65 81)' }}>
-                      Deve ser fácil fechar. [19]
+                      Deve ser fácil fechar. <a href="#ref19" className="text-blue-600 hover:underline">[19]</a>
                     </Label>
                   </div>
 
                   <div className="checklist-item">
                     <Checkbox id="item51" className="checklist-checkbox" />
                     <Label htmlFor="item51" style={{ fontSize: '1.1rem', lineHeight: '1.75', color: 'rgb(55 65 81)' }}>
-                      Permiti o uso da tecla escape ESC. [19]
+                      Permiti o uso da tecla escape ESC. <a href="#ref19" className="text-blue-600 hover:underline">[19]</a>
                     </Label>
                   </div>
 
                   <div className="checklist-item">
                     <Checkbox id="item52" className="checklist-checkbox" />
                     <Label htmlFor="item52" style={{ fontSize: '1.1rem', lineHeight: '1.75', color: 'rgb(55 65 81)' }}>
-                      A interação é uma tarefa simples. [19]
+                      A interação é uma tarefa simples. <a href="#ref19" className="text-blue-600 hover:underline">[19]</a>
                     </Label>
                   </div>
 
                   <div className="checklist-item">
                     <Checkbox id="item53" className="checklist-checkbox" />
                     <Label htmlFor="item53" style={{ fontSize: '1.1rem', lineHeight: '1.75', color: 'rgb(55 65 81)' }}>
-                      Evita modais em tela cheia. [19]
+                      Evita modais em tela cheia. <a href="#ref19" className="text-blue-600 hover:underline">[19]</a>
                     </Label>
                   </div>
 
                   <div className="checklist-item">
                     <Checkbox id="item54" className="checklist-checkbox" />
                     <Label htmlFor="item54" style={{ fontSize: '1.1rem', lineHeight: '1.75', color: 'rgb(55 65 81)' }}>
-                      Não abrir um modal a partir de outro modal. [19]
+                      Não abrir um modal a partir de outro modal. <a href="#ref19" className="text-blue-600 hover:underline">[19]</a>
                     </Label>
                   </div>
 
                   <div className="checklist-item">
                     <Checkbox id="item55" className="checklist-checkbox" />
                     <Label htmlFor="item55" style={{ fontSize: '1.1rem', lineHeight: '1.75', color: 'rgb(55 65 81)' }}>
-                      Gerenciar foco corretamente dentro do modal.
+                      Gerenciar foco corretamente dentro do modal. <a href="#ref19" className="text-blue-600 hover:underline">[19]</a>
                     </Label>
                   </div>
                 </div>

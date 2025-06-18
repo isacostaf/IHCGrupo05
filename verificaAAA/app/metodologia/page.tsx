@@ -34,6 +34,8 @@ export default function MetodologiaPage() {
             Iniciando o projeto com foco em acessibilidade digital
           </p>
 
+          <div className="max-w-4xl mx-auto space-y-8">
+
           <Card>
             <CardContent className="p-6">
               <p className="corpo-pagina">
@@ -42,7 +44,6 @@ export default function MetodologiaPage() {
             </CardContent>
           </Card>
 
-          <div className="max-w-4xl mx-auto space-y-8">
             <h2 className="page_subtitle">
               Personas
             </h2>

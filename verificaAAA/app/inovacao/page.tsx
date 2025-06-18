@@ -30,7 +30,6 @@ export default function InovacaoPage() {
           <p className="text-xl text-center text-gray-600 mb-12 max-w-2xl mx-auto">
             Como unir estética e inclusão na criação de interfaces
           </p>
-
           <div className="max-w-4xl mx-auto space-y-8">
 
           <Card>

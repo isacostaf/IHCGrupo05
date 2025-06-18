@@ -33,6 +33,8 @@ export default function ObjetivosPage() {
           <p className="text-xl text-center text-gray-600 mb-12 max-w-2xl mx-auto">
             Boas práticas para garantir acessibilidade na produção de conteúdo digital
           </p>
+          
+          <div className="max-w-4xl mx-auto space-y-8">
 
           <Card>
             <CardContent className="p-6">
@@ -42,7 +44,6 @@ export default function ObjetivosPage() {
             </CardContent>
           </Card>
 
-          <div className="max-w-4xl mx-auto space-y-8">
             <h2 className="page_subtitle">
               Termos
             </h2>
