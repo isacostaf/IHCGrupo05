@@ -98,7 +98,7 @@ export function ProgressWidget() {
       <Card className="p-4 bg-white/90 backdrop-blur-sm shadow-lg border border-gray-200/50 z-50">
         <div className="flex items-center gap-4">
           <div className="relative w-16 h-16">
-            <svg className="w-16 h-16" viewBox="0 0 36 36">
+            <svg className="w-16 h-16" viewBox="0 0 36 36" aria-label={`Gráfico circular mostrando ${percentage.toFixed(0)}% de progresso total do site`}>
               {/* Background circle */}
               <circle
                 cx="18"
@@ -107,6 +107,7 @@ export function ProgressWidget() {
                 fill="none"
                 stroke="#e5e7eb"
                 strokeWidth="3"
+                aria-hidden="true"
               />
               {/* Progress circle */}
               <circle
@@ -119,6 +120,7 @@ export function ProgressWidget() {
                 strokeDasharray={`${percentage} 100`}
                 strokeLinecap="round"
                 transform="rotate(-90 18 18)"
+                aria-hidden="true"
               />
               <defs>
                 <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -144,7 +146,7 @@ export function ProgressWidget() {
       <Card className="p-4 bg-white/90 backdrop-blur-sm shadow-lg border border-gray-200/50 z-50">
         <div className="flex items-center gap-4">
           <div className="relative w-16 h-16">
-            <svg className="w-16 h-16" viewBox="0 0 36 36">
+            <svg className="w-16 h-16" viewBox="0 0 36 36" aria-label={`Gráfico circular mostrando ${pagePercentage.toFixed(0)}% de progresso da página atual (${currentPage})`}>
               {/* Background circle */}
               <circle
                 cx="18"
@@ -153,6 +155,7 @@ export function ProgressWidget() {
                 fill="none"
                 stroke="#e5e7eb"
                 strokeWidth="3"
+                aria-hidden="true"
               />
               {/* Progress circle */}
               <circle
@@ -165,6 +168,7 @@ export function ProgressWidget() {
                 strokeDasharray={`${pagePercentage} 100`}
                 strokeLinecap="round"
                 transform="rotate(-90 18 18)"
+                aria-hidden="true"
               />
               <defs>
                 <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="0%">
