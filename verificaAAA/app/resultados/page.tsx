@@ -11,6 +11,7 @@ export default function ResultadosPage() {
           <Button
             variant="outline"
             className="mb-8 hover:bg-white/90 shadow-md hover:shadow-lg transition-all duration-300 border-gray-200/50 backdrop-blur-sm bg-white/80"
+            aria-label="Voltar para a página inicial"
           >
             <ArrowLeft className="w-4 h-4 mr-2" />
             Voltar para Home
@@ -32,6 +33,9 @@ export default function ResultadosPage() {
             Recursos para auxiliar no desenvolvimento de soluções acessíveis
           </p>
 
+          <div className="max-w-4xl mx-auto space-y-8">
+
+
           <Card>
             <CardContent className="p-6">
               <p className="corpo-pagina">
@@ -40,7 +44,6 @@ export default function ResultadosPage() {
             </CardContent>
           </Card>
 
-          <div className="max-w-4xl mx-auto space-y-8">
             <h2 className="page_subtitle">
               Frameworks e Ferramentas de Testes Automatizados 
             </h2>

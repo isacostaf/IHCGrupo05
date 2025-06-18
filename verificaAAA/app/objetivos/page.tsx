@@ -4,15 +4,19 @@ import { Target, ArrowLeft } from "lucide-react"
 import Link from "next/link"
 import { Checkbox } from "@/components/ui/checkbox"
 import { Label } from "@/components/ui/label"
+import { ResetButton } from "@/components/ui/reset-button"
+import { ProgressWidget } from "@/components/ui/progress-widget"
 
 export default function ObjetivosPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+      <ProgressWidget />
       <div className="container mx-auto px-4 py-8">
         <Link href="/">
           <Button
             variant="outline"
             className="mb-8 hover:bg-white/90 shadow-md hover:shadow-lg transition-all duration-300 border-gray-200/50 backdrop-blur-sm bg-white/80"
+            aria-label="Voltar para a página inicial"
           >
             <ArrowLeft className="w-4 h-4 mr-2" />
             Voltar para Home
@@ -33,6 +37,9 @@ export default function ObjetivosPage() {
           <p className="text-xl text-center text-gray-600 mb-12 max-w-2xl mx-auto">
             Boas práticas para garantir acessibilidade na produção de conteúdo digital
           </p>
+          
+          <div className="max-w-4xl mx-auto space-y-8">
+            <ResetButton />
 
           <Card>
             <CardContent className="p-6">
@@ -42,7 +49,6 @@ export default function ObjetivosPage() {
             </CardContent>
           </Card>
 
-          <div className="max-w-4xl mx-auto space-y-8">
             <h2 className="page_subtitle">
               Termos
             </h2>

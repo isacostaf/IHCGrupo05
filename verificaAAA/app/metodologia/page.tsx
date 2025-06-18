@@ -4,15 +4,19 @@ import { BarChart3, ArrowLeft } from "lucide-react"
 import Link from "next/link"
 import { Checkbox } from "@/components/ui/checkbox"
 import { Label } from "@/components/ui/label"
+import { ResetButton } from "@/components/ui/reset-button"
+import { ProgressWidget } from "@/components/ui/progress-widget"
 
 export default function MetodologiaPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+      <ProgressWidget />
       <div className="container mx-auto px-4 py-8">
         <Link href="/">
           <Button
             variant="outline"
             className="mb-8 hover:bg-white/90 shadow-md hover:shadow-lg transition-all duration-300 border-gray-200/50 backdrop-blur-sm bg-white/80"
+            aria-label="Voltar para a página inicial"
           >
             <ArrowLeft className="w-4 h-4 mr-2" />
             Voltar para Home
@@ -31,18 +35,20 @@ export default function MetodologiaPage() {
           </h1>
 
           <p className="text-xl text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-            Iniciando o projeto com foco em acessibilidade digital
+            Boas práticas para garantir acessibilidade na gestão de projetos
           </p>
 
-          <Card>
-            <CardContent className="p-6">
-              <p className="corpo-pagina">
-                Para que a acessibilidade digital possa impactar positivamente a vida de milhões de pessoas, ela deve ser pensada logo no início, na concepção do projeto, fase de iniciação na Gestão de Projetos de Acessibilidade <a href="#ref1" className="text-blue-600 hover:underline">[1]</a>.
-              </p>
-            </CardContent>
-          </Card>
-
           <div className="max-w-4xl mx-auto space-y-8">
+            <ResetButton />
+
+            <Card>
+              <CardContent className="p-6">
+                <p className="corpo-pagina">
+                  Para que a acessibilidade digital possa impactar positivamente a vida de milhões de pessoas, ela deve ser pensada logo no início, na concepção do projeto, fase de iniciação na Gestão de Projetos de Acessibilidade <a href="#ref1" className="text-blue-600 hover:underline">[1]</a>.
+                </p>
+              </CardContent>
+            </Card>
+
             <h2 className="page_subtitle">
               Personas
             </h2>

@@ -4,13 +4,20 @@ import { Lightbulb, ArrowLeft } from "lucide-react"
 import Link from "next/link"
 import { Checkbox } from "@/components/ui/checkbox"
 import { Label } from "@/components/ui/label"
+import { ResetButton } from "@/components/ui/reset-button"
+import { ProgressWidget } from "@/components/ui/progress-widget"
 
 export default function InovacaoPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+      <ProgressWidget />
       <div className="container mx-auto px-4 py-8">
         <Link href="/">
-          <Button variant="outline" className="back-button">
+          <Button
+            variant="outline"
+            className="back-button"
+            aria-label="Voltar para a página inicial"
+          >
             <ArrowLeft className="w-4 h-4 mr-2" />
             Voltar para Home
           </Button>
@@ -28,10 +35,11 @@ export default function InovacaoPage() {
           </h1>
 
           <p className="text-xl text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-            Como unir estética e inclusão na criação de interfaces
+            Boas práticas para garantir acessibilidade no design
           </p>
-
+          
           <div className="max-w-4xl mx-auto space-y-8">
+            <ResetButton />
 
           <Card>
               <CardContent className="p-6">
