@@ -1,4 +1,3 @@
-"use client"
 
 import { Card, CardContent } from "@/components/ui/card"
 import { BookOpen, Users, Target, BarChart3, Lightbulb, Award } from "lucide-react"
