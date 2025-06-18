@@ -4,13 +4,20 @@ import { Users, ArrowLeft } from "lucide-react"
 import Link from "next/link"
 import { Checkbox } from "@/components/ui/checkbox"
 import { Label } from "@/components/ui/label"
+import { ResetButton } from "@/components/ui/reset-button"
+import { ProgressWidget } from "@/components/ui/progress-widget"
 
 export default function EquipePage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+      <ProgressWidget />
       <div className="container mx-auto px-4 py-8">
         <Link href="/">
-          <Button variant="outline" className="back-button">
+          <Button
+            variant="outline"
+            className="back-button"
+            aria-label="Voltar para a página inicial"
+          >
             <ArrowLeft className="w-4 h-4 mr-2" />
             Voltar para Home
           </Button>
@@ -28,10 +35,12 @@ export default function EquipePage() {
           </h1>
 
           <p className="text-xl text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-          Acessibilidade na construção de experiências web inclusivas
+            Boas práticas para garantir acessibilidade no desenvolvimento web
           </p>
 
           <div className="max-w-4xl mx-auto space-y-8">
+            <ResetButton />
+
             <Card>
               <CardContent className="p-6">
                 <p className="corpo-pagina">
@@ -460,21 +469,21 @@ export default function EquipePage() {
                   <div className="checklist-item">
                     <Checkbox id="item46" className="checklist-checkbox" />
                     <Label htmlFor="item46" style={{ fontSize: '1.1rem', lineHeight: '1.75', color: 'rgb(55 65 81)' }}>
-                      Use o table para elementos em formato de tabela. [4]
+                      Use o table para elementos em formato de tabela. <a href="#ref4" className="text-blue-600 hover:underline">[4]</a>
                     </Label>
                   </div>
 
                   <div className="checklist-item">
                     <Checkbox id="item47" className="checklist-checkbox" />
                     <Label htmlFor="item47" style={{ fontSize: '1.1rem', lineHeight: '1.75', color: 'rgb(55 65 81)' }}>
-                      Insira cabeçalhos para explicar os dados, use th com scope correto. [15]
+                      Insira cabeçalhos para explicar os dados, use th com scope correto. <a href="#ref15" className="text-blue-600 hover:underline">[15]</a>
                     </Label>
                   </div>
 
                   <div className="checklist-item">
                     <Checkbox id="item48" className="checklist-checkbox" />
                     <Label htmlFor="item48" style={{ fontSize: '1.1rem', lineHeight: '1.75', color: 'rgb(55 65 81)' }}>
-                      Use o captione lemento para fornecer um título para a tabela. [17]
+                      Use o captione lemento para fornecer um título para a tabela. <a href="#ref17" className="text-blue-600 hover:underline">[17]</a>
                     </Label>
                   </div>
 
@@ -498,35 +507,35 @@ export default function EquipePage() {
                   <div className="checklist-item">
                     <Checkbox id="item50" className="checklist-checkbox" />
                     <Label htmlFor="item50" style={{ fontSize: '1.1rem', lineHeight: '1.75', color: 'rgb(55 65 81)' }}>
-                      Deve ser fácil fechar. [19]
+                      Deve ser fácil fechar. <a href="#ref19" className="text-blue-600 hover:underline">[19]</a>
                     </Label>
                   </div>
 
                   <div className="checklist-item">
                     <Checkbox id="item51" className="checklist-checkbox" />
                     <Label htmlFor="item51" style={{ fontSize: '1.1rem', lineHeight: '1.75', color: 'rgb(55 65 81)' }}>
-                      Permiti o uso da tecla escape ESC. [19]
+                      Permiti o uso da tecla escape ESC. <a href="#ref19" className="text-blue-600 hover:underline">[19]</a>
                     </Label>
                   </div>
 
                   <div className="checklist-item">
                     <Checkbox id="item52" className="checklist-checkbox" />
                     <Label htmlFor="item52" style={{ fontSize: '1.1rem', lineHeight: '1.75', color: 'rgb(55 65 81)' }}>
-                      A interação é uma tarefa simples. [19]
+                      A interação é uma tarefa simples. <a href="#ref19" className="text-blue-600 hover:underline">[19]</a>
                     </Label>
                   </div>
 
                   <div className="checklist-item">
                     <Checkbox id="item53" className="checklist-checkbox" />
                     <Label htmlFor="item53" style={{ fontSize: '1.1rem', lineHeight: '1.75', color: 'rgb(55 65 81)' }}>
-                      Evita modais em tela cheia. [19]
+                      Evita modais em tela cheia. <a href="#ref19" className="text-blue-600 hover:underline">[19]</a>
                     </Label>
                   </div>
 
                   <div className="checklist-item">
                     <Checkbox id="item54" className="checklist-checkbox" />
                     <Label htmlFor="item54" style={{ fontSize: '1.1rem', lineHeight: '1.75', color: 'rgb(55 65 81)' }}>
-                      Não abrir um modal a partir de outro modal. [19]
+                      Não abrir um modal a partir de outro modal. <a href="#ref19" className="text-blue-600 hover:underline">[19]</a>
                     </Label>
                   </div>
 
@@ -737,7 +746,7 @@ export default function EquipePage() {
 
                   <div id="ref15" className="reference-item">
                     <p className="text-base text-gray-700">
-                      15. WCAG 2.2 Understanding Docs. SC 4.1.1 Orientation (Level). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/parsing.html" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://www.w3.org/WAI/WCAG22/Understanding/parsing.html</a>. Acesso em: 9 Mai. 2024.
+                      15. WCAG 2.2 Understanding Docs. SC 1.3.1 Info and Relationships (Level A). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html</a>. Acesso em: 9 Mai. 2024.
                     </p>
                   </div>
 
@@ -749,7 +758,7 @@ export default function EquipePage() {
 
                   <div id="ref17" className="reference-item">
                     <p className="text-base text-gray-700">
-                      17. WCAG 2.2 Understanding SC 2.4.6 Headings and Labels (Level AA). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels.html" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels.html</a>. Acesso em: 9 Mai. 2024.
+                      17. WCAG 2.2 Understanding Docs. SC 2.4.6 Headings and Labels (Level AA). Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels.html" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels.html</a>. Acesso em: 9 Mai. 2024.
                     </p>
                   </div>
 
@@ -761,7 +770,7 @@ export default function EquipePage() {
 
                   <div id="ref19" className="reference-item">
                     <p className="text-base text-gray-700">
-                      19. GUIA DE BOAS PRÁTICAS PARA ACESSIBILIDADE DIGITAL. Disponível em: <a href="https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html</a>. Acesso em: 9 Mai. 2024.
+                      19. GUIA DE BOAS PRÁTICAS PARA ACESSIBILIDADE DIGITAL. Disponível em: <a href="https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf</a>. Acesso em: 9 Mai. 2024.
                     </p>
                   </div>
                 </div>

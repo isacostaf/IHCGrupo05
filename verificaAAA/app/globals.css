@@ -121,7 +121,21 @@ body {
   }
 
   .code-inline {
-    @apply bg-gray-100 px-2 py-1 rounded text-sm font-mono text-red-600;
+    @apply text-sm font-mono text-red-600 font-bold;
+  }
+
+  /* Estilos para elementos code inline */
+  code {
+    @apply text-sm font-mono text-red-600 font-bold;
+  }
+
+  /* Estilos para elementos pre (blocos de código) */
+  pre {
+    @apply bg-gray-50 border border-gray-200 rounded-lg p-4 overflow-x-auto;
+  }
+
+  pre code {
+    @apply text-sm font-mono text-gray-800 bg-transparent p-0 border-0;
   }
 
   .back-button {
@@ -133,10 +147,30 @@ body {
   }
 
   .reference-item a {
-    @apply text-blue-600 hover:text-blue-800 transition-colors duration-200;
+    @apply text-blue-600 hover:text-blue-800 transition-colors duration-200 underline;
   }
 
   .reference-item p {
     @apply text-base leading-relaxed;
+  }
+
+  /* Focus styles */
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  select:focus-visible,
+  textarea:focus-visible {
+    @apply outline-none ring-2 ring-blue-500 ring-offset-2;
+  }
+
+  /* Link styles */
+  a {
+    @apply underline decoration-1 underline-offset-2;
+  }
+
+  /* External link indicator */
+  a[target="_blank"]::after {
+    content: " (abre em nova janela)";
+    @apply text-sm text-gray-500;
   }
 }
