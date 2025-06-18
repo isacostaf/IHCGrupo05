@@ -5,10 +5,12 @@ import Link from "next/link"
 import { Checkbox } from "@/components/ui/checkbox"
 import { Label } from "@/components/ui/label"
 import { ResetButton } from "@/components/ui/reset-button"
+import { ProgressWidget } from "@/components/ui/progress-widget"
 
 export default function InovacaoPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+      <ProgressWidget />
       <div className="container mx-auto px-4 py-8">
         <Link href="/">
           <Button variant="outline" className="back-button">
