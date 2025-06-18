@@ -131,7 +131,12 @@ export default function HomePage() {
           const IconComponent = section.icon
 
           return (
-            <Link key={section.id} href={section.href}>
+            <Link
+              key={section.id}
+              href={section.href}
+              className="block"
+              aria-label={`Ir para a seção ${section.title}`}
+            >
               <Card className="group cursor-pointer transition-all duration-300 hover:scale-105 hover:-translate-y-1 hover:shadow-2xl border border-gray-200/30 bg-white backdrop-blur-sm overflow-hidden relative shadow-lg hover:shadow-xl h-[220px]">
                 <div className="absolute inset-0 bg-gradient-to-br from-white/60 to-gray-50/20"></div>
                 <div
@@ -184,68 +189,60 @@ export default function HomePage() {
             </h3>
             <p className="text-gray-600 mb-6">Projeto desenvolvido por alunos de Engenharia de Software</p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 max-w-2xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-2xl mx-auto">
               <a
                 href="https://github.com/JuliaGabP"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group flex items-center justify-center p-2 rounded-lg bg-cyan-500/40 hover:bg-cyan-500/50 shadow-md hover:shadow-lg transition-all duration-300 border border-cyan-200/40"
+                className="group flex items-center justify-center p-4 rounded-lg bg-cyan-500/40 hover:bg-cyan-500/50 shadow-md hover:shadow-lg transition-all duration-300 border border-cyan-200/40"
+                aria-label="GitHub de Julia Gabriela"
               >
                 <div className="text-center">
-                  <div className="w-7 h-7 bg-gradient-to-r from-blue-500 to-cyan-400 rounded-full flex items-center justify-center mx-auto mb-1 group-hover:scale-110 transition-transform duration-300">
-                    <span className="text-white font-bold text-xs">JG</span>
+                  <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-cyan-400 rounded-full flex items-center justify-center mx-auto mb-2 group-hover:scale-110 transition-transform duration-300">
+                    <span className="text-white font-bold text-sm">JG</span>
                   </div>
-                  <p className="font-medium text-gray-800 group-hover:text-blue-600 transition-colors">Julia Gabriela</p>
-                  <div className="h-[2px]"></div>
-                  <p className="text-xs text-gray-500">GitHub</p>
+                  <p className="font-medium text-gray-800 group-hover:text-blue-600 transition-colors text-base">Julia Gabriela</p>
+                  <p className="text-sm text-gray-500 mt-1">GitHub</p>
                 </div>
               </a>
 
               <a
                 href="https://github.com/isacostaf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group flex items-center justify-center p-2 rounded-lg bg-cyan-500/40 hover:bg-cyan-500/50 shadow-md hover:shadow-lg transition-all duration-300 border border-cyan-200/40"
+                className="group flex items-center justify-center p-4 rounded-lg bg-cyan-500/40 hover:bg-cyan-500/50 shadow-md hover:shadow-lg transition-all duration-300 border border-cyan-200/40"
+                aria-label="GitHub de Isabelle Costa"
               >
                 <div className="text-center">
-                  <div className="w-7 h-7 bg-gradient-to-r from-purple-500 to-pink-400 rounded-full flex items-center justify-center mx-auto mb-1 group-hover:scale-110 transition-transform duration-300">
-                    <span className="text-white font-bold text-xs">IC</span>
+                  <div className="w-10 h-10 bg-gradient-to-r from-purple-500 to-pink-400 rounded-full flex items-center justify-center mx-auto mb-2 group-hover:scale-110 transition-transform duration-300">
+                    <span className="text-white font-bold text-sm">IC</span>
                   </div>
-                  <p className="font-medium text-gray-800 group-hover:text-purple-600 transition-colors">Isabelle Costa</p>
-                  <div className="h-[2px]"></div>
-                  <p className="text-xs text-gray-500">GitHub</p>
+                  <p className="font-medium text-gray-800 group-hover:text-purple-600 transition-colors text-base">Isabelle Costa</p>
+                  <p className="text-sm text-gray-500 mt-1">GitHub</p>
                 </div>
               </a>
 
               <a
                 href="https://github.com/Diaxiz"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group flex items-center justify-center p-2 rounded-lg bg-cyan-500/40 hover:bg-cyan-500/50 shadow-md hover:shadow-lg transition-all duration-300 border border-cyan-200/40"
+                className="group flex items-center justify-center p-4 rounded-lg bg-cyan-500/40 hover:bg-cyan-500/50 shadow-md hover:shadow-lg transition-all duration-300 border border-cyan-200/40"
+                aria-label="GitHub de Diassís"
               >
                 <div className="text-center">
-                  <div className="w-7 h-7 bg-gradient-to-r from-green-500 to-emerald-400 rounded-full flex items-center justify-center mx-auto mb-1 group-hover:scale-110 transition-transform duration-300">
-                    <span className="text-white font-bold text-xs">DS</span>
+                  <div className="w-10 h-10 bg-gradient-to-r from-green-500 to-emerald-400 rounded-full flex items-center justify-center mx-auto mb-2 group-hover:scale-110 transition-transform duration-300">
+                    <span className="text-white font-bold text-sm">DS</span>
                   </div>
-                  <p className="font-medium text-gray-800 group-hover:text-green-600 transition-colors">Diassís</p>
-                  <div className="h-[2px]"></div>
-                  <p className="text-xs text-gray-500">GitHub</p>
+                  <p className="font-medium text-gray-800 group-hover:text-green-600 transition-colors text-base">Diassís</p>
+                  <p className="text-sm text-gray-500 mt-1">GitHub</p>
                 </div>
               </a>
 
               <a
                 href="https://github.com/marcomarquesdc"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group flex items-center justify-center p-2 rounded-lg bg-cyan-500/40 hover:bg-cyan-500/50 shadow-md hover:shadow-lg transition-all duration-300 border border-cyan-200/40"
+                className="group flex items-center justify-center p-4 rounded-lg bg-cyan-500/40 hover:bg-cyan-500/50 shadow-md hover:shadow-lg transition-all duration-300 border border-cyan-200/40"
+                aria-label="GitHub de Marco Marques"
               >
                 <div className="text-center">
-                  <div className="w-7 h-7 bg-gradient-to-r from-orange-500 to-red-400 rounded-full flex items-center justify-center mx-auto mb-1 group-hover:scale-110 transition-transform duration-300">
-                    <span className="text-white font-bold text-xs">MM</span>
+                  <div className="w-10 h-10 bg-gradient-to-r from-orange-500 to-red-400 rounded-full flex items-center justify-center mx-auto mb-2 group-hover:scale-110 transition-transform duration-300">
+                    <span className="text-white font-bold text-sm">MM</span>
                   </div>
-                  <p className="font-medium text-gray-800 group-hover:text-orange-600 transition-colors">Marco Marques</p>
-                  <div className="h-[2px]"></div>
-                  <p className="text-xs text-gray-500">GitHub</p>
+                  <p className="font-medium text-gray-800 group-hover:text-orange-600 transition-colors text-base">Marco Marques</p>
+                  <p className="text-sm text-gray-500 mt-1">GitHub</p>
                 </div>
               </a>
             </div>

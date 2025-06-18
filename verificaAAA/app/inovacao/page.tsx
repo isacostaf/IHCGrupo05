@@ -13,7 +13,11 @@ export default function InovacaoPage() {
       <ProgressWidget />
       <div className="container mx-auto px-4 py-8">
         <Link href="/">
-          <Button variant="outline" className="back-button">
+          <Button
+            variant="outline"
+            className="back-button"
+            aria-label="Voltar para a página inicial"
+          >
             <ArrowLeft className="w-4 h-4 mr-2" />
             Voltar para Home
           </Button>
