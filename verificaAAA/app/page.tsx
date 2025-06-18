@@ -53,7 +53,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
       {/* Hero Section */}
-      <div className="container mx-auto px-4 py-16 relative md:py-20 md:pb-0">
+      <div className="container mx-auto px-4 py-24 relative md:py-32 md:pb-0">
         {/* Background creative elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           {/* Grid pattern */}
@@ -66,14 +66,14 @@ export default function HomePage() {
           </div>
 
           {/* Floating design elements */}
-          <div className="absolute top-20 left-1/4 w-4 h-4 border-2 border-blue-300/40 rotate-45 animate-pulse"></div>
-          <div className="absolute top-32 right-1/3 w-6 h-6 rounded-full bg-purple-300/30 animate-bounce delay-300"></div>
-          <div className="absolute top-40 left-1/3 w-8 h-1 bg-green-300/40 animate-pulse delay-700"></div>
-          <div className="absolute bottom-40 right-1/4 w-3 h-8 bg-orange-300/30 animate-bounce delay-1000"></div>
+          <div className="absolute top-20 left-1/4 w-8 h-8 border-2 border-blue-300/40 rotate-45 animate-pulse"></div>
+          <div className="absolute top-32 right-1/3 w-12 h-12 rounded-full bg-purple-300/30 animate-bounce delay-300"></div>
+          <div className="absolute top-40 left-1/3 w-16 h-2 bg-green-300/40 animate-pulse delay-700"></div>
+          <div className="absolute bottom-40 right-1/4 w-6 h-16 bg-orange-300/30 animate-bounce delay-1000"></div>
 
           {/* Golden ratio spiral suggestion */}
-          <div className="absolute top-1/4 right-1/4 w-32 h-32 border border-yellow-200/20 rounded-full"></div>
-          <div className="absolute top-1/3 right-1/3 w-20 h-20 border border-yellow-200/30 rounded-full"></div>
+          <div className="absolute top-1/4 right-1/4 w-48 h-48 border border-yellow-200/20 rounded-full"></div>
+          <div className="absolute top-1/3 right-1/3 w-32 h-32 border border-yellow-200/30 rounded-full"></div>
         </div>
 
         <div className="text-center mb-16 relative z-10">
