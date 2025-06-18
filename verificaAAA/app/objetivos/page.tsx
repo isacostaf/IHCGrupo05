@@ -4,6 +4,7 @@ import { Target, ArrowLeft } from "lucide-react"
 import Link from "next/link"
 import { Checkbox } from "@/components/ui/checkbox"
 import { Label } from "@/components/ui/label"
+import { ResetButton } from "@/components/ui/reset-button"
 
 export default function ObjetivosPage() {
   return (
@@ -35,6 +36,7 @@ export default function ObjetivosPage() {
           </p>
           
           <div className="max-w-4xl mx-auto space-y-8">
+            <ResetButton />
 
           <Card>
             <CardContent className="p-6">

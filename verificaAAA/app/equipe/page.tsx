@@ -4,6 +4,7 @@ import { Users, ArrowLeft } from "lucide-react"
 import Link from "next/link"
 import { Checkbox } from "@/components/ui/checkbox"
 import { Label } from "@/components/ui/label"
+import { ResetButton } from "@/components/ui/reset-button"
 
 export default function EquipePage() {
   return (
@@ -28,10 +29,12 @@ export default function EquipePage() {
           </h1>
 
           <p className="text-xl text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-            Conheça os desenvolvedores por trás do VerificaAAA
+            Boas práticas para garantir acessibilidade no desenvolvimento web
           </p>
 
           <div className="max-w-4xl mx-auto space-y-8">
+            <ResetButton />
+
             <Card>
               <CardContent className="p-6">
                 <p className="corpo-pagina">

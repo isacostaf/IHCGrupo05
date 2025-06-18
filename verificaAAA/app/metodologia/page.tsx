@@ -4,6 +4,7 @@ import { BarChart3, ArrowLeft } from "lucide-react"
 import Link from "next/link"
 import { Checkbox } from "@/components/ui/checkbox"
 import { Label } from "@/components/ui/label"
+import { ResetButton } from "@/components/ui/reset-button"
 
 export default function MetodologiaPage() {
   return (
@@ -31,18 +32,19 @@ export default function MetodologiaPage() {
           </h1>
 
           <p className="text-xl text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-            Iniciando o projeto com foco em acessibilidade digital
+            Boas práticas para garantir acessibilidade na gestão de projetos
           </p>
 
           <div className="max-w-4xl mx-auto space-y-8">
+            <ResetButton />
 
-          <Card>
-            <CardContent className="p-6">
-              <p className="corpo-pagina">
-                Para que a acessibilidade digital possa impactar positivamente a vida de milhões de pessoas, ela deve ser pensada logo no início, na concepção do projeto, fase de iniciação na Gestão de Projetos de Acessibilidade <a href="#ref1" className="text-blue-600 hover:underline">[1]</a>.
-              </p>
-            </CardContent>
-          </Card>
+            <Card>
+              <CardContent className="p-6">
+                <p className="corpo-pagina">
+                  Para que a acessibilidade digital possa impactar positivamente a vida de milhões de pessoas, ela deve ser pensada logo no início, na concepção do projeto, fase de iniciação na Gestão de Projetos de Acessibilidade <a href="#ref1" className="text-blue-600 hover:underline">[1]</a>.
+                </p>
+              </CardContent>
+            </Card>
 
             <h2 className="page_subtitle">
               Personas
