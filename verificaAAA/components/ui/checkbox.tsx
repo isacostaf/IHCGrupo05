@@ -31,6 +31,9 @@ const Checkbox = React.forwardRef<
       )}
       checked={checked}
       onCheckedChange={handleCheckboxChange}
+      aria-label={`Checkbox ${id}`}
+      role="checkbox"
+      aria-checked={checked}
       {...props}
     >
       <CheckboxPrimitive.Indicator className={cn("flex items-center justify-center text-current")}>
