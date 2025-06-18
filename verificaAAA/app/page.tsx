@@ -173,7 +173,7 @@ export default function HomePage() {
             <div className="flex justify-center mb-4">
               <Image
                 src="/logounb.png"
-                alt="Logo UnB"
+                alt="Logo da Universidade de Brasília - UnB, símbolo oficial da instituição"
                 width={60}
                 height={60}
                 className="object-contain"
