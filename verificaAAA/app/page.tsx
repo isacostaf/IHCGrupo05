@@ -177,7 +177,7 @@ export default function HomePage() {
           <div className="text-center mb-8">
             <div className="flex justify-center mb-4">
               <Image
-                src="/logounb.png"
+                src="/IHCGrupo05/logounb.png"
                 alt="Logo da Universidade de Brasília - UnB, símbolo oficial da instituição"
                 width={60}
                 height={60}
