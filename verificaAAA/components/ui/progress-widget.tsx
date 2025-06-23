@@ -48,12 +48,11 @@ export function ProgressWidget() {
       // Get current page path
       const path = window.location.pathname
       const segments = path.split('/').filter(Boolean)
-      // Para GitHub Pages: sempre usar o segundo segmento após 'IHCGrupo05' como página
       let currentPath = ''
       if (segments.length > 1 && segments[0] === 'IHCGrupo05') {
         currentPath = segments[1]
       } else {
-        currentPath = '' // fora do padrão esperado, não mostra nada
+        currentPath = segments[segments.length - 1] || ''
       }
       const pageName = PAGE_NAMES[currentPath as keyof typeof PAGE_NAMES] || ''
       setCurrentPage(pageName)
